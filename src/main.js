@@ -13,8 +13,7 @@ Vue.use(VueResource);
 
 Vue.http.options.root = 'https://stock-trader-65c52.firebaseio.com/';
 
-const router = new VueRouter({
-    mode: 'history',
+const router = new VueRouter({    
     routes
 });
 
